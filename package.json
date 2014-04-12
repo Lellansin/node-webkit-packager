@@ -1,0 +1,19 @@
+{
+	"name": "nw-demo",
+	"main": "index.html",
+	"description": "node-webkit pakager",
+	"version": "0.0.1",
+	"keywords": ["node-webkit pakager", "node-webkit", "Lellansin"],
+	"window": {
+		"icon": "link.png",
+		"toolbar": false,
+		"width": 310,
+		"height": 500,
+		"icon": "",
+		"frame": true
+	},
+	"dependencies": {
+		"archiver": "~0.7.1"
+	},
+	"user-agent": "%name %ver %nwver %webkit_ver %osinfo"
+}
