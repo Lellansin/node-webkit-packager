@@ -5,7 +5,8 @@ A node-webkit Packager developed by itself.
 
 Before build it self, you shold add your <code>nw.exe</code> directory into PATH. Then you can build the packager by:
 
-<pre>node packager.js</pre>
+<pre>npm install
+node packager.js</pre>
 
 This command will build the tool itself, then you can see the window below:
 
@@ -24,7 +25,8 @@ Node-webkit 打包工具
 
 在使用之前，你需要先将 <code>nw.exe</code> 加入 PATH 环境变量。接着可以通过如下命令生成该工具：
 
-<pre>node packager.js</pre>
+<pre>npm install
+node packager.js</pre>
 
 运行之后该工具会自动给自身打包，并且显示出主体窗口（如上图所示）。
 
